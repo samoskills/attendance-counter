@@ -1,4 +1,3 @@
-let dateEl = document.getElementById("date-el")
 let saveManEl = document.getElementById("save-man-el")
 let saveWomanEl = document.getElementById("save-woman-el")
 let saveChildEl = document.getElementById("save-children-el")
@@ -9,9 +8,7 @@ let countM = 0
 let countW = 0
 let countC = 0
 
-function date() {
-    dateEl.innerHTML(new Date()) 
-}
+
 function man() {
     countM += 1
     countManEl.textContent = countM
