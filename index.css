@@ -10,8 +10,18 @@ body {
     background: white;
     max-width: 400px;
     margin: auto;
-    border: 3px solid black;
-    border-radius: 10px;
+    border: 0px solid black;
+    border-radius: 0px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.container2 {
+    background: rgb(255, 200, 250);
+    max-width: 360px;
+    margin: auto;
+    border: 0px solid black;
+    padding: 20px;
 }
 
 h1 {
@@ -63,4 +73,18 @@ button {
 #date-el {
     font-size: 10px;
     font-weight: bold
+}
+#save-man-el, #save-woman-el, #save-children-el {
+    color: #000000;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: 800;
+    margin: 14px;
+    font-size: 10px;
+    text-transform: uppercase;
+    
+}
+#total, #date {
+    font-weight: 600;
+    padding-top: 0px;
 }
