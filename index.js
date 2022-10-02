@@ -8,6 +8,8 @@ let countM = 0
 let countW = 0
 let countC = 0
 
+const d = new Date();
+document.getElementById("date").innerHTML = d.toDateString();
 
 function man() {
     countM += 1
